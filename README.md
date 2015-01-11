@@ -3,6 +3,8 @@ Elevator
 
 Free, responsive, Bootstrap 3 enabled one page theme for multiple purposes, inspired by the Metro UI. Adapted from GrayGrids' HTML template for OctoberCMS, without any built-in 3rd party extensions.
 
+![Screenshot](https://raw.githubusercontent.com/jtherczeg/elevator-theme/master/assets/images/theme-preview.png)
+
 Features
 --------
 * Metro UI inspired
