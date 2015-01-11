@@ -1,0 +1,118 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html lang="en">
+    {% partial "meta" %}
+
+
+<body>
+
+        <!-- Start Logo Section -->
+        <section id="logo-section" class="text-center">
+            {% page %}
+        </section>
+        <!-- End Logo Section -->
+
+        <!-- Start Feature Section -->
+        <div class="section-modal modal fade" id="feature-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            {% partial "modal" %}
+            {% partial "feature" %}
+            </div>
+        </div>
+        <!-- End Feature Section -->
+            
+        <!-- Start Portfolio Section -->
+        <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            {% partial "modal" %}
+            {% partial "portfolio" %}
+            </div>
+        </div>
+        <!-- End Portfolio Section -->
+            
+        <!-- Start About Us Section -->
+        <div class="section-modal modal fade" id="about-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            {% partial "modal" %}
+            {% partial "about" %}
+            </div>
+        </div>
+        <!-- End About Us Section -->
+            
+        <!-- Start Service Section -->
+        <div class="section-modal modal fade" id="service-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            {% partial "modal" %}
+            {% partial "services" %}
+            </div>
+        </div>
+        <!-- End Service Section -->
+    
+        <!-- Start Team Member Section -->
+        <div class="section-modal modal fade" id="team-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            {% partial "modal" %}
+            {% partial "team" %}
+            </div>
+        </div>
+        </div>
+        <!-- End Team Member Section -->
+    
+        <!-- Start Latest News Section -->
+        <div class="section-modal modal fade" id="news-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            {% partial "modal" %}
+            {% partial "news" %}
+            </div>
+        </div>
+        <!-- End Latest News Section -->
+
+        <!-- Start Contact Section -->
+        <div class="section-modal modal fade contact" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            {% partial "modal" %}
+            {% partial "contact" %}
+            </div>
+        </div>
+        <!-- End Contact Section -->
+            
+         <!-- Start Testimonial Section -->
+        <div class="section-modal modal fade contact" id="testimonial-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            {% partial "modal" %}
+            {% partial "testimonial" %}
+            </div>
+        </div>
+        <!-- End Testimonial Section -->
+
+        <!-- Start Copyright Section -->
+        <div class="copyright text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        {% partial "footer" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright Section -->
+
+ <!-- Template js -->    
+    <script type="text/javascript" src="{{ 'assets/js/jquery-2.1.1.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/vendor/bootstrap/js/bootstrap.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.appear.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/contact_me.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jqBootstrapValidation.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/modernizr.custom.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/script.js'|theme }}"></script>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+    {% framework extras %}
+    {% scripts %}
+
+</body>
+</html>

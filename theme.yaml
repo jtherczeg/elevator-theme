@@ -1,0 +1,14 @@
+name: Elevator
+code: elevator
+description: Free, responsive, Bootstrap 3 enabled one page theme for multiple purposes, inspired by the Metro UI
+author: Shahriyar Ahmed &amp; József Tamás Herczeg
+authorUrl: 'http://graygrids.com/'
+
+# [...]
+
+form:
+    fields:
+        site_name:
+            label: Site name
+            comment: The website name as it should appear on the front-end
+            default: Elevator
